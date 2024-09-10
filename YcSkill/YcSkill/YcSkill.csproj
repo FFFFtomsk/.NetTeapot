@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="3.0.8" />
+    <PackageReference Include="Yandex.Cloud.SDK" Version="1.4.0-pre1" />
+    <PackageReference Include="Ydb.Sdk" Version="0.4.0" />
+    <PackageReference Include="Ydb.Sdk.Yc.Auth" Version="0.0.5" />
+  </ItemGroup>
+
+</Project>
